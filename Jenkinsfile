@@ -8,7 +8,7 @@ hose {
 
     ATTIMEOUT = 60
 
-    ATPARAMETERS = ''
+    ATPARAMETERS = '-DSELENIUM_GRID=selenium.cd:4444'
     
     ATSERVICES = [
         ['CHROME':  ['image':   'stratio/selenium-chrome:48',
